@@ -1,0 +1,225 @@
+﻿body {
+    background-image: url('../doc/Images/Lucas.jpg');
+}
+
+
+p {
+   
+    color: black;
+    font: normal 20px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+#small-background {
+    color: black;
+
+    
+}
+
+#name {
+    background-color: #fff;
+    color: #777;
+}
+
+.last-para {
+    color: black;
+}
+
+
+body {
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: #444;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: 300;
+    color: #444;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+    a:hover {
+        color: #02b8dd;
+    }
+
+strong {
+    font-weight: bold;
+}
+
+small {
+    font-size: 13px;
+    color: #777;
+    font-style: italic;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+
+header {
+    height: 120px;
+}
+
+    header h1 {
+        float: left;
+        margin-top: 32px;
+    }
+
+        header h1 .color {
+            color: #02b8dd;
+        }
+
+    header nav {
+        float: right;
+    }
+
+        header nav ul li {
+            display: inline-block;
+            margin-top: 50px;
+        }
+
+            header nav ul li a {
+                color: #444;
+                text-transform: uppercase;
+                font-weight: bold;
+                display: block;
+                margin-right: 20px;
+            }
+
+
+.gallerycell {
+    width: 80%;
+}
+
+.galleryimg {
+    width: 80%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+/*positioning the icons*/
+#twitter-icon {
+    float: right;
+    position: relative;
+    margin-right: 50%
+}
+
+#linkedin-icon {
+    float: right;
+    position: center;
+}
+
+#facebook-icon {
+    float: right;
+    position: center;
+}
+
+#google-map {
+    margin-right: 50%;
+    position: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+    #myBtn:hover {
+        background-color: #555;
+    }
+   
